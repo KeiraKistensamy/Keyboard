@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+.RowsandColumns {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    border: 1px solid pink;
+}
+:root{
+    --primary: black;
+    --secondary: orange;
+    --alternative: pink ;
+    --awesome: yellow;
+    --borderColor: lightyellow;
+}
+
+.tab{ 
+    grid-column: 1/ span 3; 
+background-color: var(--awesome);
+}
+.Backspace{
+    grid-column: 14 / span 3;
+}
+.esc{
+    grid-column: 1/ span 1;
+    background-color: var(--secondary);
+}
+.CapsLK{
+    grid-column: 1 / span 2;
+}
+.Enter{
+    grid-column: 14/ span 3;
+}
+.Shift1{
+    grid-column: 1/ span 3;
+}
+.Shift2{
+    grid-column: 14/ span 3;
+}
+
+.Contro1l{
+    grid-column: 1/ span 2;
+}
+.Fn{
+    grid-column: 2/ span 1;
+}
+.Windows{
+    grid-column: 3/ span 1 ;
+}
+.Alt2{
+    grid-column: 11/ span 1;
+}
+.Alt1{
+    grid-column: 4/ span 1;
+}
+.Control2{
+    grid-column: 12/ span 1;
+}
+.Left{
+    grid-column: 13/ span 1;
+}
+.Right{
+    grid-column: 16/ span 1;
+}
+.Up{
+    grid-column: 14/ span 1;
+}
+.Down{
+    grid-column: 15/ span 1;
+}
+.Spacebar{
+    grid-column: 5/ span 6;
+}
+button{
+   /* margin: auto;  */
+   background-color: beige;
+   padding: 8px;
+   border-radius: 5px;
+   margin: 1px;
+  
+   &:hover{
+    background-color: lightcoral;
+}     
+}
+
+
