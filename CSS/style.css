@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after{
-    margin: 0;
-    padding: 0;
+    margin: 10%;
+    padding: 1px;
 }
 .RowsandColumns {
     width: 100vw;
@@ -12,69 +12,91 @@
     border: 1px solid pink;
 }
 :root{
-    --primary: black;
+    --primary: rgb(133, 184, 109);
     --secondary: orange;
     --alternative: pink ;
-    --awesome: yellow;
+    --awesome: rgb(203, 203, 137);
     --borderColor: lightyellow;
 }
 
 .tab{ 
     grid-column: 1/ span 3; 
-background-color: var(--awesome);
+background-color: var(--alternative);
 }
 .Backspace{
     grid-column: 14 / span 3;
+    background-color: var(--alternative);
 }
 .esc{
     grid-column: 1/ span 1;
-    background-color: var(--secondary);
+    background-color: var(--alternative);
 }
 .CapsLK{
     grid-column: 1 / span 2;
+    background-color: var(--alternative);
 }
 .Enter{
     grid-column: 14/ span 3;
+    background-color: var(--alternative);
 }
 .Shift1{
     grid-column: 1/ span 3;
+    background-color: var(--alternative);
 }
 .Shift2{
     grid-column: 14/ span 3;
+    background-color: var(--alternative);
 }
 
-.Contro1l{
-    grid-column: 1/ span 2;
+.Control1{
+    grid-column: 1/ span 1;
+    background-color:var(--alternative);
 }
 .Fn{
     grid-column: 2/ span 1;
+    background-color:var(--alternative);
 }
 .Windows{
     grid-column: 3/ span 1 ;
+    background-color: var(--alternative);
 }
 .Alt2{
     grid-column: 11/ span 1;
+    background-color: var(--alternative);
 }
 .Alt1{
     grid-column: 4/ span 1;
+    background-color: var(--alternative);
 }
 .Control2{
     grid-column: 12/ span 1;
+    background-color: var(--alternative);
 }
 .Left{
     grid-column: 13/ span 1;
+    background-color: var(--alternative);
 }
 .Right{
     grid-column: 16/ span 1;
+    background-color: var(--alternative);
 }
 .Up{
     grid-column: 14/ span 1;
+    background-color: var(--alternative);
 }
 .Down{
     grid-column: 15/ span 1;
+    background-color: var(--alternative);
 }
 .Spacebar{
     grid-column: 5/ span 6;
+    background-color: var(--alternative);
+}
+.button{
+    background-color: var(--awesome);
+}
+.symbol{
+    background-color: var(--primary);
 }
 button{
    /* margin: auto;  */
