@@ -2,7 +2,7 @@
 *::before,
 *::after{
     margin: 10%;
-    padding: 1px;
+    padding: 1px; 
 }
 .RowsandColumns {
     width: 100vw;
@@ -10,6 +10,13 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     border: 1px solid pink;
+} 
+input{
+    text-align: center;
+}
+form input{
+    height: 50px;
+    width: 1300px;
 }
 :root{
     --primary: rgb(133, 184, 109);
